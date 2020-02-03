@@ -1,6 +1,7 @@
 package com.techsquelly.pracitce;
 
-import org.assertj.core.api.Assert;
+import static org.junit.Assert.assertEquals;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -13,7 +14,7 @@ class TestPracticeForBarclaysApplicationTests {
 	
 	@Test
 	public void testCase1(){
-		org.springframework.util.Assert.isTrue(true);
+	assertEquals(true, true);
 	}
 
 }
