@@ -37,13 +37,13 @@ public class testCreatEmployee {
 	@Test
 	public void test() {
 		System.out.println("test case 1");
-		Assert.assertEquals(true, true);
+	assertEquals(true, true);
 	}
 	
 	@Test
 	public void testCreatEmployee() {
 		System.out.println("test case 2");
-	    Assert.assertEquals(true, true);
+	   assertEquals(true, true);
 	}
 
 }
